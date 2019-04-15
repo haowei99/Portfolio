@@ -15,6 +15,7 @@
 }
 .portfolio-img{
   height: 16em;
+  width: 100%;
 }
 
 .wato{
@@ -65,7 +66,7 @@
 	background-position: center;
 	background-repeat: no-repeat;
 	background-blend-mode: luminosity;
-	color: #f8f9fa;
+	color: aliceblue;
 }
 .scroller-about{
 	display: flex;
