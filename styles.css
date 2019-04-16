@@ -52,7 +52,7 @@
     max-width: 100%;
 }
 .link-color a{
-	color: #3f51b5;
+	color: #90caf9;
 }
 .scroller{
     display: flex;
@@ -61,12 +61,12 @@
     padding-top: 8em;
 }
 #about{
-	background-image: url("img/about-me.JPG");
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("img/about-me.JPG");
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
 	background-blend-mode: luminosity;
-	color: aliceblue;
+	color: white;
 }
 .scroller-about{
 	display: flex;
