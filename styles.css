@@ -49,10 +49,8 @@
 .icons{
 	font-size: 6em
 }
-.body{
-    overflow-x: hidden;
-    max-width: 100%;
-    font-family: 'Raleway';
+#page-top{
+  overflow-x: hidden !important;
 }
 .link-color a{
 	color: #1565c0;
