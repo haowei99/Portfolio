@@ -1,11 +1,13 @@
 .fa-github:hover{ 
-  color: orange;
+  color: #1565c0
+  ;
 }
 .fa-envelope:hover{
-  color: orange
+  color: #1565c0;
 } 
 .fa-linkedin:hover{
-  color: orange;
+  color: #1565c0
+  ;
 }
 
 .cibc{
@@ -50,9 +52,10 @@
 .body{
     overflow-x: hidden;
     max-width: 100%;
+    font-family: 'Raleway';
 }
 .link-color a{
-	color: #90caf9;
+	color: #1565c0;
 }
 .scroller{
     display: flex;
@@ -61,12 +64,21 @@
     padding-top: 8em;
 }
 #about{
-  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url("img/about-me.JPG");
+  background-image: linear-gradient(rgba(108, 141, 202, 0.8), rgba(145, 234, 228, 0.8));
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	background-blend-mode: luminosity;
-	color: white;
+	color: black;
+}
+#experience{
+  background-image: linear-gradient(rgba(145, 234, 228, 0.8) 0%, #fff 20%, #fff 75%, #FFEFBA 100%);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+
+#portfolio{
+  background-color: #FFEFBA;
 }
 .scroller-about{
 	display: flex;
@@ -156,7 +168,7 @@
   /* The typewriter cursor effect */
   @keyframes blink-caret {
     from, to { border-color: transparent }
-    50% { border-color: orange; }
+    50% { border-color: lightblue; }
   }
 
 
@@ -332,3 +344,5 @@
   @media (max-width: 991px) {
     .single-news {
       margin-bottom: 30px; } }
+
+    
