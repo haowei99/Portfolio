@@ -12,7 +12,7 @@
 
 .cibc{
 	align-self: center;
-	width: 50%;
+	width: 70%;
 	height: 15em;
 }
 .portfolio-img{
@@ -40,8 +40,17 @@
 	background: #B00B1C;
 }
 .bdo{
+	width: 70%;
+  height: 15em;
+  margin-left: 3.2em;
+}
+.ci{
+  width: 100%;
+  height: 15em;
+}
+.un{
 	width: 100%;
-	height: 15em;
+  height: 15em;
 }
 .resume{
     margin-top: 5em;
@@ -66,7 +75,8 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-	color: black;
+  color: black;
+  height: 100%;
 }
 #experience{
   background-image: linear-gradient(rgba(145, 234, 228, 0.8) 0%, #fff 20%, #fff 75%, #FFEFBA 100%);
@@ -294,7 +304,7 @@
   -o-transition: all 0.3s ease 0s;
   transition: all 0.3s ease 0s; }
   .single-news:hover {
-    box-shadow: 0px 12px 32px 0px rgba(26, 26, 26, 0.12); }
+    box-shadow: 0px 12px 32px 0px rgba(26, 26, 26, 0.35); }
     .single-news:hover .card-body {
       border: 1px solid transparent;
       -webkit-transition: all 0.3s ease 0s;
