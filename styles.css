@@ -75,18 +75,23 @@
 	background-size: cover;
 	background-position: center;
 	background-repeat: no-repeat;
-  color: black;
+  color: darkslategray;
   height: 100%;
 }
 #experience{
   background-image: linear-gradient(rgba(145, 234, 228, 0.8) 0%, #fff 20%, #fff 75%, #FFEFBA 100%);
 	background-size: cover;
 	background-position: center;
-	background-repeat: no-repeat;
+  background-repeat: no-repeat;
+  color: darkslategray;
 }
 
 #portfolio{
   background-color: #FFEFBA;
+  color:darkslategray;
+}
+#contact{
+  color:darkslategray;
 }
 .scroller-about{
 	display: flex;
@@ -297,6 +302,7 @@
 }
  
 .single-news {
+  height: 28em;
   border: none;
   border-radius: 0 !important;
   -webkit-transition: all 0.3s ease 0s;
@@ -314,8 +320,7 @@
       .single-news:hover .card-body .card-title a {
         color: #3face4; }
   .single-news .card-body {
-    border: 1px solid rgba(0, 0, 0, 0.125);
-    padding: 40px 28px; }
+    border: 1px solid rgba(0, 0, 0, 0.125);}
     @media (max-width: 1024px) {
       .single-news .card-body {
         padding: 35px 18px; } }
